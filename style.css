@@ -1,0 +1,102 @@
+.main{
+    width: 80%;
+    margin-left: 100px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 5px 15px rgb(0 0 0 /80%);
+    border-radius: 5px ;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+}
+img{
+    height: 180px;
+    border-radius: 20px;
+    margin-left: 50px;
+}
+p{
+    position: relative;
+    left: 65px;
+    bottom: 133px;
+    font-size: 20px;
+    font-weight: 300;
+}
+h2{
+    margin-left: 450px;
+}
+input{
+    outline: none;
+    width: 60%;
+    margin-left: 220px;
+    height: 30px;
+    margin-bottom: 20px;
+    
+}
+
+
+a{
+    text-decoration: none;
+    color: rgb(196, 46, 0); 
+}
+
+button{
+    height: 40px;
+    width: 100px;
+    background-color: rgb(96, 98, 255);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+.btn{
+    margin-left: 300px;
+}
+
+li{
+    list-style: none;
+    
+}
+a > li{
+    visibility: hidden;
+     
+}
+
+.userdetails{
+    width: 30%;
+    margin-left: 300px;
+    background-color: rgb(255, 231, 231);
+    box-shadow: 0 5px 15px rgb(0 0 0 /80%);
+}
+.userdetails li{
+    margin-left: 70px;
+    margin-top:30px;
+    font-size: 18px;
+
+}
+.userdetails img{
+ margin-left:70px;
+ margin-top: 20px;
+} 
+i{
+    display: block;
+    font-size: 80px;
+    margin-left: 400px;
+}
+#name{
+    /* display: none; */
+    position: relative;
+    bottom: 40px;
+    left: 70px;
+    color: blue;
+}
+.active{
+    background-color: rgb(190, 255, 60);
+}
+button.more {
+    margin-left: 350px;
+}
+.person{
+    margin-top: 30px;
+}
